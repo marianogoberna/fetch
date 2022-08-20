@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    display: grid;
+    grid-template-areas: "char1 char2";
+}
+
+.char1{
+    padding: 1rem;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    
+}
+
+.char2{
+    padding: 1rem;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    
+}
